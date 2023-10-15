@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:hint="Enter title" />
+    <EditText
+        android:id="@+id/occup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:hint="Enter occupation" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:text="SAVE DATA"
+        android:textSize="20dp"
+        android:inputType="text"
+     />
+    <Button
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:text="SHOW DATA"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:text="UPDATE DATA"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:text="DELETE DATA"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/show1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/show2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:textSize="20dp"
+        />
+</LinearLayout>
