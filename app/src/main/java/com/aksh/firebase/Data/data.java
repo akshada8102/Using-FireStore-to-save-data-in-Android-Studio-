@@ -1,6 +1,8 @@
 package com.aksh.firebase.Data;
 
 public class data {
+    //will push
+
     public static String title;
     public static String occupation;
 
@@ -13,6 +15,7 @@ public class data {
     }
 
     public static String getOccupation() {
+
         return occupation;
     }
 
